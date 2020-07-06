@@ -13,17 +13,19 @@ body {
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1px, 800px));
-    width: 800px;
-    height: 800px;
+    grid-auto-rows: auto;
+    width: 80vh;
+    height: 80vh;
     background-color: aqua;
     margin: auto;
 }
-
+.grid {
+    display: grid;
+}
 
 .grid-square {
+    padding-top: 100%;
     background-color: black;
-    border: 1px solid white;
 }
 
 .grid-square:hover {
